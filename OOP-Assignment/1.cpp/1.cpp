@@ -10,7 +10,7 @@ int main(){
     else if(variable<0)
         cout<<"It's a negative number.\n";
     else
-        cout<<"It's Zero.\n";
+        cout<<"The number you entered is Zero.\n";
 
     return 0;
 }
