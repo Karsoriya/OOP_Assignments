@@ -10,10 +10,10 @@ int main() {
 
     for (i = 1; i <= 20; ++i) {
         for ( j = 1; j <= 10; ++j) {
-            cout  << number * ((i - 1) * 10 + j);
-            cout<<" ";
+            cout  << number * ((i - 1) * 10 + j)<<"\t";
+           
         }
-        cout << endl;
+        
     }
 
     return 0;
