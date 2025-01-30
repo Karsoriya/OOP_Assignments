@@ -1,3 +1,4 @@
+//Generate a sequence of multiples of a positive integer
 #include <iostream>
 
 using namespace std;
