@@ -1,3 +1,4 @@
+//C++ program to calculate income tax
 #include <iostream>
 using namespace std;
 
@@ -14,7 +15,8 @@ double calculate_Tax(double income) {
         tax = (income - 250000) * 0.05;   
     } else if (income <= 1000000) {
         tax = (income - 500000) * 0.20 + (250000 * 0.05); 
-    } else {  tax = (income - 1000000) * 0.30 + (500000 * 0.20) + (250000 * 0.05);   
+    } else{
+        tax = (income - 1000000) * 0.30 + (500000 * 0.20) + (250000 * 0.05);   
     }
 
     return tax;
