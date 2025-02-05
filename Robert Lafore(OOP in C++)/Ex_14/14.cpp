@@ -28,7 +28,7 @@ int main() {
         return 1;
     }
     
-    cout << "Number of possible arrangements: " << permutations(guests, chairs) << endl;
+    cout << "Number of possible arrangements: " << permutations(g, c) << endl;
     
     return 0;
 }
