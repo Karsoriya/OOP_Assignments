@@ -1,3 +1,6 @@
+/* Implement a function generateEvenNumbers(int n) that returns an array of the first n even numbers. 
+Use dynamic memory allocation (new keyword).
+*/
 #include <iostream>
 using namespace std;
 
