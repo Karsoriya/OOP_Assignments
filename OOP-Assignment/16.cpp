@@ -16,14 +16,11 @@ public:
     Vector operator-() {
         return Vector(-x, -y);
     }
-
-    // Function to take input
     void input() {
         cout << "Enter x and y coordinates: ";
         cin >> x >> y;
     }
 
-    // Function to display the vector
     void display() {
         cout << "Vector: (" << x << ", " << y << ")" << endl;
     }
@@ -31,18 +28,15 @@ public:
 
 int main() {
     Vector v1;
-    
-    // Taking user input
     cout << "Enter vector coordinates:" << endl;
     v1.input();
-    
-    // Negating the vector
+
     Vector v2 = -v1;
     
     // Display results
-    cout << "Original ";
+    cout << "Original coordinates are: ";
     v1.display();
-    cout << "Negated ";
+    cout << "Negated coordinates are: ";
     v2.display();
     
     return 0;
